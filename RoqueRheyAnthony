@@ -1,0 +1,41 @@
+package rheyanthonyroque;
+
+import java.util.scanner;
+public class rheyanthonyroque{
+
+  public static void main(string[] args) {
+
+ 
+  
+  scanner scan = new scanner(system.in);
+  system.out.print("welcome to candy machine!!!");
+  scan.next();
+  
+ 
+  //string candymachine[] = {"candy", "chips", "gum", "cookies"};
+  //string price[] = {"2", "5", "3", "10"};
+  
+  system.out.println("candymachine items!");
+  
+  system.out.println("candy");
+  system.out.println("chips");
+  system.out.println("gum");
+  system.out.println("cookies");
+  
+  
+  system.out.println("what do you want to buy");
+   string name = scan.next();
+  
+
+  system.out.println("how many?");
+  scan.next();
+  
+ 
+  system.out.println("pay your bill");
+   scan.next();
+  
+  
+  
+}
+
+}
